@@ -3,11 +3,11 @@ function iterativeLog(array){
     console.log(`${index}: ${element}`);
   });
 }
-function iterate(callback()){
+function iterate(callback{
   array = ['a','b','c','d'];
   array.forEach(callback());
   return array;
 }
-function doToArray(array, callback()){
+function doToArray(array, callback{
   array.forEach(callback());
 }
